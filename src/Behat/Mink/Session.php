@@ -108,6 +108,16 @@ class Session
     }
 
     /**
+     * Sets page element.
+     *
+     * @param DocumentElement $page
+     */
+    public function setPage(DocumentElement $page)
+    {
+        $this->page = $page;
+    }
+
+    /**
      * Returns selectors handler.
      *
      * @return SelectorsHandler
